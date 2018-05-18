@@ -3298,7 +3298,8 @@ readers do not read off random characters that represent icons */
   height: 530px;
   padding: 60px 0 35px;
   background-color: #59a386;
-  background: url("../img/background/footer-bg.jpg") center center no-repeat; }
+  background: url("../img/background/footer-bg.jpg") center center no-repeat;
+  background-size: cover; }
 
 .footer__wrap {
   display: -ms-flexbox;
@@ -3450,7 +3451,7 @@ readers do not read off random characters that represent icons */
 .fancybox-close-small {
   display: none; }
 
-@media screen and (max-width: 1500px) {
+@media screen and (max-width: 2000px) {
   .container {
     width: 940px; } }
 
