@@ -38,31 +38,31 @@ h6 {
 
 @font-face {
   font-family: 'wc_mano_negra_btaregular';
-  src: url("../fonts/wcmanonegrabta-webfont.woff") format("woff"), url("../../fonts/wcmanonegrabta-webfont.svg#wc_mano_negra_btaregular") format("svg");
+  src: url("../fonts/wcmanonegrabta-webfont.woff") format("woff"), url("../fonts/wcmanonegrabta-webfont.svg#wc_mano_negra_btaregular") format("svg");
   font-weight: normal;
   font-style: normal; }
 
 @font-face {
   font-family: 'Aleo';
-  src: url("../fonts/aleo-light-webfont.woff") format("woff"), url("../../fonts/aleo-light-webfont.svg#aleolight") format("svg");
+  src: url("../fonts/aleo-light-webfont.woff") format("woff"), url("../fonts/aleo-light-webfont.svg#aleolight") format("svg");
   font-weight: 300;
   font-style: normal; }
 
 @font-face {
   font-family: 'Aleo';
-  src: url("../fonts/aleo-lightitalic-webfont.woff") format("woff"), url("../../fonts/aleo-lightitalic-webfont.svg#aleolightitalic") format("svg");
+  src: url("../fonts/aleo-lightitalic-webfont.woff") format("woff"), url("../fonts/aleo-lightitalic-webfont.svg#aleolightitalic") format("svg");
   font-weight: 300;
   font-style: italic; }
 
 @font-face {
   font-family: 'Aleo';
-  src: url("../fonts/aleo-regular-webfont.woff") format("woff"), url("../../fonts/aleo-regular-webfont.svg#aleoregular") format("svg");
+  src: url("../fonts/aleo-regular-webfont.woff") format("woff"), url("../fonts/aleo-regular-webfont.svg#aleoregular") format("svg");
   font-weight: 400;
   font-style: normal; }
 
 @font-face {
   font-family: 'Aleo';
-  src: url("../fonts/aleo-bold-webfont.woff") format("woff"), url("../../fonts/aleo-bold-webfont.svg#aleobold") format("svg");
+  src: url("../fonts/aleo-bold-webfont.woff") format("woff"), url("../fonts/aleo-bold-webfont.svg#aleobold") format("svg");
   font-weight: 700;
   font-style: normal; }
 
@@ -70,19 +70,19 @@ h6 {
   font-family: 'Font Awesome 5 Free';
   font-style: normal;
   font-weight: 400;
-  src: url("../fonts/fa-regular-400.woff") format("woff"), url("../../fonts/fa-regular-400.svg#fontawesome") format("svg"); }
+  src: url("../fonts/fa-regular-400.woff") format("woff"), url("../fonts/fa-regular-400.svg#fontawesome") format("svg"); }
 
 @font-face {
   font-family: 'Font Awesome 5 Brands';
   font-style: normal;
   font-weight: normal;
-  src: url("../fonts/fa-brands-400.woff") format("woff"), url("../../fonts/fa-brands-400.svg#fontawesome") format("svg"); }
+  src: url("../fonts/fa-brands-400.woff") format("woff"), url("../fonts/fa-brands-400.svg#fontawesome") format("svg"); }
 
 @font-face {
   font-family: 'Font Awesome 5 Free';
   font-style: normal;
   font-weight: 900;
-  src: url("../fonts/fa-solid-900.woff") format("woff"), url("../../fonts/fa-solid-900.svg#fontawesome") format("svg"); }
+  src: url("../fonts/fa-solid-900.woff") format("woff"), url("../fonts/fa-solid-900.svg#fontawesome") format("svg"); }
 
 .header {
   background-color: #fff; }
@@ -465,71 +465,31 @@ h6 {
   font-weight: 700;
   color: #ececec; }
 
-.popup {
+.menu-icon {
   display: none; }
-
-.menu-burger {
-  position: absolute;
-  top: 0;
-  right: 0;
-  left: 0;
-  bottom: 0;
-  margin: 0;
-  padding: 0;
-  background: url(../img/bg/pizza.jpg) center center no-repeat;
-  background-size: cover;
-  padding: 40px; }
-  .menu-burger .logo__first,
-  .menu-burger .logo__second {
-    color: #fff; }
-
-.menu-burger__top {
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-pack: justify;
-      justify-content: space-between;
-  -ms-flex-align: center;
-      align-items: center;
-  margin-bottom: 60px; }
-
-.menu-burger__icon {
-  font-size: 23px;
-  color: #fff;
-  transition: .3s; }
-  .menu-burger__icon:hover {
+  .menu-icon i:hover {
     color: red; }
 
-.menu-burger__list {
+.mobile-menu {
+  display: none; }
+
+.mobile-menu__list {
   display: -ms-flexbox;
   display: flex;
   -ms-flex-direction: column;
       flex-direction: column;
   -ms-flex-align: center;
       align-items: center;
-  color: #fff;
-  margin-bottom: 60px; }
+  padding-bottom: 25px; }
+  .mobile-menu__list .nav__item {
+    margin-left: 0; }
+  .mobile-menu__list .nav__link {
+    font-size: 18px;
+    transition: .3s; }
+    .mobile-menu__list .nav__link:hover {
+      color: red; }
 
-.menu-burger__item {
-  position: relative;
-  margin-bottom: 10px;
-  font-size: 30px; }
-  .menu-burger__item:last-child {
-    margin-bottom: 0; }
-
-.menu-burger__link {
-  text-decoration: none;
-  text-transform: uppercase;
-  color: #fff;
-  font-family: 'wc_mano_negra_btaregular';
-  font-weight: 700;
-  transition: .3s; }
-  .menu-burger__link:hover {
-    color: red; }
-
-.fancybox-close-small {
-  display: none; }
-
-@media screen and (max-width: 1500px) {
+@media screen and (max-width: 2000px) {
   .container {
     width: 1100px; } }
 
@@ -561,9 +521,9 @@ h6 {
 @media screen and (max-width: 768px) {
   .container {
     width: 460px; }
-  .adaptive-menu {
+  .menu-icon {
     display: block; }
-  .nav {
+  .nav__list {
     display: none; }
   .billboard__title {
     font-size: 47px; }
