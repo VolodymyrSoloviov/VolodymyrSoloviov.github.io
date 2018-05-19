@@ -38,25 +38,25 @@ h6 {
 
 @font-face {
   font-family: 'Proxima';
-  src: url("../fonts/ProximaNova-Light.woff") format("woff"), url("../../fonts/ProximaNova-Light.svg#ProximaNova-Light") format("svg");
+  src: url("../fonts/ProximaNova-Light.woff") format("woff"), url("../fonts/ProximaNova-Light.svg#ProximaNova-Light") format("svg");
   font-weight: 300;
   font-style: normal; }
 
 @font-face {
   font-family: 'ProximaNova';
-  src: url("../fonts/ProximaNova-Regular.woff") format("woff"), url("../../fonts/ProximaNova-Regular.svg#ProximaNova-Regular") format("svg");
+  src: url("../fonts/ProximaNova-Regular.woff") format("woff"), url("../fonts/ProximaNova-Regular.svg#ProximaNova-Regular") format("svg");
   font-weight: 400;
   font-style: normal; }
 
 @font-face {
   font-family: 'ProximaNova';
-  src: url("../fonts/ProximaNova-Semibold.woff") format("woff"), url("../../fonts/ProximaNova-Semibold.svg#ProximaNova-Semibold") format("svg");
+  src: url("../fonts/ProximaNova-Semibold.woff") format("woff"), url("../fonts/ProximaNova-Semibold.svg#ProximaNova-Semibold") format("svg");
   font-weight: 600;
   font-style: normal; }
 
 @font-face {
   font-family: 'ProximaNova';
-  src: url("../fonts/ProximaNova-Bold.woff") format("woff"), url("../../fonts/ProximaNova-Bold.svg#ProximaNova-Bold") format("svg");
+  src: url("../fonts/ProximaNova-Bold.woff") format("woff"), url("../fonts/ProximaNova-Bold.svg#ProximaNova-Bold") format("svg");
   font-weight: 700;
   font-style: normal; }
 
@@ -64,19 +64,19 @@ h6 {
   font-family: 'Font Awesome 5 Brands';
   font-style: normal;
   font-weight: normal;
-  src: url("../fonts/fa-brands-400.woff") format("woff"), url("../../fonts/fa-brands-400.svg#fontawesome") format("svg"); }
+  src: url("../fonts/fa-brands-400.woff") format("woff"), url("../fonts/fa-brands-400.svg#fontawesome") format("svg"); }
 
 @font-face {
   font-family: 'Font Awesome 5 Free';
   font-style: normal;
   font-weight: 400;
-  src: url("../fonts/fa-regular-400.woff") format("woff"), url("../../fonts/fa-regular-400.svg#fontawesome") format("svg"); }
+  src: url("../fonts/fa-regular-400.woff") format("woff"), url("../fonts/fa-regular-400.svg#fontawesome") format("svg"); }
 
 @font-face {
   font-family: 'Font Awesome 5 Free';
   font-style: normal;
   font-weight: 900;
-  src: url("../fonts/fa-solid-900.woff") format("woff"), url("../../fonts/fa-solid-900.svg#fontawesome") format("svg"); }
+  src: url("../fonts/fa-solid-900.woff") format("woff"), url("../fonts/fa-solid-900.svg#fontawesome") format("svg"); }
 
 .header {
   background: url("../img/bg/header-bg.jpg") center center no-repeat;
@@ -844,7 +844,7 @@ h6 {
   .footer__share-link:hover {
     color: #fff; }
 
-@media screen and (max-width: 1500px) {
+@media screen and (max-width: 2000px) {
   .container {
     width: 1000px; } }
 
