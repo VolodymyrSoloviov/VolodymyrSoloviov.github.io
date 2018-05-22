@@ -319,13 +319,10 @@ h6 {
 
 .featured-dishes__star {
   position: relative;
+  color: #dedede;
   font-size: 13px; }
-  .featured-dishes__star:after {
-    content: "\f005";
-    font-family: FontAwesome;
-    color: #dedede; }
 
-.yellow-star:after {
+.yellow-star {
   color: #f1df1a; }
 
 .owl-dots {
