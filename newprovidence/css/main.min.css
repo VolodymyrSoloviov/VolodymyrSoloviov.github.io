@@ -235,7 +235,7 @@ h6 {
   height: 455px;
   width: 370px;
   background-color: red;
-  background: url("../img/bg/Iphone-bg.png") 37% 3% no-repeat; }
+  background: url("../img/bg/iPhone-bg.png") 37% 3% no-repeat; }
 
 .features {
   min-height: 600px;
@@ -278,7 +278,7 @@ h6 {
 .iPhoneFeature {
   min-height: 900px;
   padding-top: 210px;
-  background: url("../img/bg/Iphone6.png") left center no-repeat; }
+  background: url("../img/bg/iPhone6.png") left center no-repeat; }
 
 .iPhoneFeature__wrap {
   display: -webkit-box;
