@@ -3188,7 +3188,7 @@ template {
     top: -100%;
     left: 0;
     margin: 0 0 0 0;
-    padding: 60px 15px 15px 15px;
+    padding: 80px 15px 15px 15px;
     overflow: auto;
     background-color: #aaa;
     -webkit-transition: 0.3s;
@@ -3539,6 +3539,9 @@ template {
             align-items: center;
     height: 50px;
     padding: 0 0 0 0;
+  }
+  .header__top .header__top-right {
+    padding: 60px 15px 15px 15px;
   }
 
   .header__bg {
